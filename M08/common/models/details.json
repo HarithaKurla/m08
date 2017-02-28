@@ -1,0 +1,34 @@
+{
+  "name": "Details",
+  "plural": "Details",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstname": {
+      "type": "string",
+      "required": true,
+      "default": "Haritha"
+    },
+    "lastname": {
+      "type": "string",
+      "required": true,
+      "default": "Kurla"
+    },
+    "Gender": {
+      "type": "string",
+      "required": true,
+      "default": "F"
+    },
+    "phonenumber": {
+      "type": "number",
+      "default": 7702677706
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
